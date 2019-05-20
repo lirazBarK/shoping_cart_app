@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+            <p id="demo"></p>
+
+        <div id='dropzone' class="split inventory droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Inventory List</h1>
+            <div class="amount wallet">
+            </div>
+        </div>
+
+        <div id= 'dropzone2'class="split shopping_cart droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Shopping Cart</h1>
+            <div class="amount total">
+
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>

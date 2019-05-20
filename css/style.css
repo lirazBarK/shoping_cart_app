@@ -1,0 +1,82 @@
+/* ================================= 
+  Page Styles
+==================================== */
+
+.container {
+    width:100%;
+    text-align: center;
+    
+}
+
+.split {
+   margin-top: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+
+.inventory {
+    left: 85px;
+    width:40%;
+    height: 500px;
+	background: #c1deeb;
+	border: 2px solid #424344;
+    display: inline-block;
+ 
+
+}
+
+.shopping_cart {
+    right: 85px;
+    width:40%;
+    height: 500px;
+	background: #c1deeb;
+	border: 2px solid #424344;
+    display: inline-block;
+  
+}
+
+h1 {
+    border-bottom:  2px solid #424344;   
+}
+
+span {
+	position: relative;
+	background: white;
+    border-radius: .4em;
+    font-size: 20px;
+    display: inline-block;
+    padding: 12px;
+    margin: 12px;
+    white-space: normal;
+
+}
+
+span:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 2px solid transparent;
+	border-bottom-color: white;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -1px;
+	margin-top: -2px;
+}
+
+.amount {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top:  2px solid #424344;   
+    text-align: left;
+  }
+
+  h2 {
+      margin:7px;
+  }
+
